@@ -14,7 +14,7 @@ const Placements = lazy(() => import('./sections/Placements'))
 const Testimonials = lazy(() => import('./sections/Testimonials'))
 const GlobalEdge = lazy(() => import('./sections/GlobalEdge'))
 const Team = lazy(() => import('./sections/Team'))
-const Eligibility = lazy(() => import('./sections/Eligibility'))
+
 const AdmissionProcess = lazy(() => import('./sections/AdmissionProcess'))
 const FAQ = lazy(() => import('./sections/FAQ'))
 const FinalCTA = lazy(() => import('./sections/FinalCTA'))
@@ -58,9 +58,7 @@ export default function App() {
       <Suspense fallback={<SectionFallback />}>
         <Team />
       </Suspense>
-      <Suspense fallback={<SectionFallback />}>
-        <Eligibility />
-      </Suspense>
+
       <Suspense fallback={<SectionFallback />}>
         <AdmissionProcess />
       </Suspense>
