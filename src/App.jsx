@@ -6,7 +6,7 @@ import StickyMobileCTA from './sections/StickyMobileCTA'
 import ScholarshipPopup from './components/ScholarshipPopup'
 
 const Specializations = lazy(() => import('./sections/Specializations'))
-const ComparisonDiff = lazy(() => import('./sections/ComparisonDiff'))
+
 const Pillars = lazy(() => import('./sections/Pillars'))
 const LabShowcase = lazy(() => import('./sections/LabShowcase'))
 const CampusLife = lazy(() => import('./sections/CampusLife'))
@@ -34,9 +34,7 @@ export default function App() {
       <Suspense fallback={<SectionFallback />}>
         <Specializations />
       </Suspense>
-      <Suspense fallback={<SectionFallback />}>
-        <ComparisonDiff />
-      </Suspense>
+
       <Suspense fallback={<SectionFallback />}>
         <Pillars />
       </Suspense>
