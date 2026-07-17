@@ -10,20 +10,20 @@ export default function Navbar() {
           <div className="h-[56px] shrink-0 flex items-center">
             <img src="/sgvu-logo.png" alt="SGVU Logo" className="h-full w-auto object-contain" />
           </div>
-          <div className="font-display font-semibold text-[0.8rem] sm:text-[0.92rem] leading-tight min-w-0 text-textdark">
+          <div className="font-semibold text-[0.8rem] sm:text-[0.92rem] leading-tight min-w-0 text-textdark">
             <span className="block truncate">{nav.name}</span>
-            <small className="hidden sm:block font-mono text-[0.6rem] text-muted-light tracking-wide uppercase">
+            <small className="hidden sm:block text-[0.6rem] text-muted-light tracking-wide uppercase">
               {nav.tagline}
             </small>
           </div>
         </div>
         <div className="flex items-center gap-3 sm:gap-4 shrink-0">
-          <span className="hidden lg:inline-block font-mono text-[0.68rem] bg-lime text-ink px-3 py-1.5 rounded-full font-medium">
+          <span className="hidden lg:inline-block text-[0.68rem] bg-lime text-ink px-3 py-1.5 rounded-full font-medium">
             {nav.badge}
           </span>
           <a
             href={nav.phoneHref}
-            className="hidden lg:flex items-center gap-1.5 font-mono text-[0.8rem] text-muted-light hover:text-violet transition-colors"
+            className="hidden lg:flex items-center gap-1.5 text-[0.8rem] text-muted-light hover:text-violet transition-colors"
           >
             <Phone size={14} />
             {nav.phoneDisplay}
