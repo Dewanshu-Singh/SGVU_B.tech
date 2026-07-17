@@ -11,10 +11,10 @@ export const hero = {
     { b: '100%', text: 'Internship Assistance' },
   ],
   stats: [
-    { value: '2000+', label: 'Hours of coding' },
-    { value: '500+', label: 'Recruiting companies' },
-    { value: '5', label: 'Future-ready tracks' },
-    { value: '100%', label: 'Placement Support' },
+    { value: '2008', label: 'Established' },
+    { value: '11', label: 'Schools' },
+    { value: '4000+', label: 'Students' },
+    { value: '23K+', label: 'Placements' },
   ],
 }
 

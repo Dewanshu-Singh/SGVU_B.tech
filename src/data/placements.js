@@ -5,10 +5,10 @@ export const placementsHeading = {
 }
 
 export const placementStats = [
-  { value: '500+', label: 'Recruiting companies each year' },
-  { value: '100%', label: 'Internship assistance' },
-  { value: 'Mock', label: 'Interviews & Resume building' },
-  { value: 'Global', label: 'Industry networking opportunities' },
+  { value: '2008', label: 'Established' },
+  { value: '11', label: 'Schools' },
+  { value: '4000+', label: 'Students' },
+  { value: '23K+', label: 'Placements' },
 ]
 
 export const roleTicker = [
