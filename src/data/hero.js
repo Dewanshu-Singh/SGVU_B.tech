@@ -1,12 +1,9 @@
 export const hero = {
-  eyebrow: 'B.Tech CSE — Admissions 2026 Open',
+  eyebrow: 'Admissions 2026 Open',
   headline: {
-    prefix: "Don't just ",
-    strike: 'study',
-    middle: ' computer science.',
-    highlight: 'Ship it.',
+    main: 'B.Tech Computer Science',
   },
-  sub: "A 4-year B.Tech Computer Science Engineering with 100% hands-on labs, 2000+ hours of real coding, and specializations built with top tech companies — including one of India's leading AI research labs. At NAAC A+ accredited Suresh Gyan Vihar University, Jaipur.",
+  sub: "A 4-year undergraduate program focused on hands-on labs, real-world projects, and industry-ready specializations at Suresh Gyan Vihar University.",
   trustChips: [
     { b: 'NAAC A+', text: 'Accredited' },
     { b: 'UGC', text: 'Recognised' },

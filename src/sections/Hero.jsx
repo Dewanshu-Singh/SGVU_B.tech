@@ -48,19 +48,7 @@ export default function Hero() {
             variants={itemVariants}
             className="font-display font-bold leading-[1.12] tracking-[-0.01em] text-[clamp(2.3rem,5.2vw,3.9rem)] mt-4 mb-2 text-textdark"
           >
-            {hero.headline.prefix}
-            <span className="relative whitespace-nowrap text-muted-light">
-              {hero.headline.strike}
-              <motion.span 
-                initial={{ scaleX: 0, originX: 0 }}
-                animate={{ scaleX: 1 }}
-                transition={{ delay: 0.8, duration: 0.5, type: "spring" }}
-                className="absolute left-[-2%] right-[-2%] top-[54%] h-1 bg-redx rounded-sm -rotate-[2deg]" 
-              />
-            </span>
-            {hero.headline.middle}
-            <br />
-            <span className="text-violet">{hero.headline.highlight}</span>
+            {hero.headline.main}
           </motion.h1>
           
           <motion.p variants={itemVariants} className="mt-3.5 mb-1 text-[1.08rem] text-muted-light max-w-xl">
