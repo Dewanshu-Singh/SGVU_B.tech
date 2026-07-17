@@ -3,7 +3,6 @@ import { hero } from '../data/hero'
 import Eyebrow from '../components/ui/Eyebrow'
 import Chip from '../components/ui/Chip'
 import LeadForm from '../components/LeadForm'
-import BrochureDownload from '../components/BrochureDownload'
 import SpecializationQuickLinks from '../components/SpecializationQuickLinks'
 import { accentAt } from '../lib/colors'
 
@@ -99,7 +98,6 @@ export default function Hero() {
           className="lg:sticky lg:top-24"
         >
           <LeadForm />
-          <BrochureDownload />
         </motion.div>
       </div>
     </header>
