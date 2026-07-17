@@ -27,9 +27,9 @@ export default {
         },
       },
       fontFamily: {
-        display: ['"Space Grotesk"', 'sans-serif'],
-        body: ['Manrope', 'sans-serif'],
-        mono: ['"JetBrains Mono"', 'monospace'],
+        display: ['Lato', 'sans-serif'],
+        body: ['Lato', 'sans-serif'],
+        mono: ['Lato', 'sans-serif'],
       },
       borderRadius: {
         brand: '14px',
