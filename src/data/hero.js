@@ -7,14 +7,14 @@ export const hero = {
   trustChips: [
     { b: 'NAAC A+', text: 'Accredited' },
     { b: 'UGC', text: 'Recognised' },
-    { b: '1.8 CR', text: 'Highest Package*' },
-    { b: '300+', text: 'Recruiters' },
+    { b: '500+', text: 'Recruiters' },
+    { b: '100%', text: 'Internship Assistance' },
   ],
   stats: [
     { value: '2000+', label: 'Hours of coding' },
-    { value: '40K+', label: 'Alumni network' },
-    { value: '1.8 CR', label: 'Highest package*' },
-    { value: '300+', label: 'Recruiting companies' },
+    { value: '500+', label: 'Recruiting companies' },
+    { value: '5', label: 'Future-ready tracks' },
+    { value: '100%', label: 'Placement Support' },
   ],
 }
 

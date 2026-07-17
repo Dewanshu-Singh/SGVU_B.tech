@@ -1,26 +1,26 @@
 export const placementsHeading = {
-  eyebrow: 'For Parents: The Numbers That Matter',
-  title: 'Ambition backed by a safety net.',
-  sub: 'A visionary program means nothing without outcomes. Here are SGVU’s verified placement numbers.',
+  eyebrow: 'Career Outcomes',
+  title: 'Strong Placement Support.',
+  sub: 'We don\'t just teach you; we prepare you for the industry with a dedicated placement cell.',
 }
 
 export const placementStats = [
-  { value: '1.8 CR', label: 'Highest package (international) — Walmart, USA' },
-  { value: '300+', label: 'Recruiting companies each year' },
-  { value: '40K+', label: 'Alumni network' },
-  { value: '10K+', label: 'Students on campus' },
+  { value: '500+', label: 'Recruiting companies each year' },
+  { value: '100%', label: 'Internship assistance' },
+  { value: 'Mock', label: 'Interviews & Resume building' },
+  { value: 'Global', label: 'Industry networking opportunities' },
 ]
 
 export const roleTicker = [
-  'Walmart (USA)',
-  'Ford (UK)',
-  'SBI Bank',
-  'IQVIA',
-  'JBL GEO',
-  'Kognivera IT',
-  'NeuroDiscovery AI',
-  'Liquid Screen Design',
+  'IBM',
+  'Amazon',
+  'upGrad',
+  'Shodh AI',
+  'Tech Mahindra',
+  'TCS',
+  'Infosys',
+  'Wipro',
 ]
 
 export const placementsFootnote =
-  '*As per latest published SGVU placement records. Individual student outcomes vary.'
+  '*Placement assistance is provided to all eligible students by the dedicated placement cell.'

@@ -1,9 +1,6 @@
 export const marqueeItems = [
-  'APPLE AUTHORIZED TRAINING',
-  'GOOGLE CLOUD',
-  'NVIDIA PIPELINE LABS',
-  'SHODH AI · INDIA AI MISSION',
-  'MICROSOFT',
-  'EC-COUNCIL',
-  'AWS',
+  'IBM',
+  'UPGRAD',
+  'AMAZON',
+  'SHODH AI',
 ]

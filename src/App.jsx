@@ -9,14 +9,7 @@ const Specializations = lazy(() => import('./sections/Specializations'))
 
 const Pillars = lazy(() => import('./sections/Pillars'))
 const LabShowcase = lazy(() => import('./sections/LabShowcase'))
-const CampusLife = lazy(() => import('./sections/CampusLife'))
 const Placements = lazy(() => import('./sections/Placements'))
-const Testimonials = lazy(() => import('./sections/Testimonials'))
-const GlobalEdge = lazy(() => import('./sections/GlobalEdge'))
-const Team = lazy(() => import('./sections/Team'))
-
-const AdmissionProcess = lazy(() => import('./sections/AdmissionProcess'))
-const FAQ = lazy(() => import('./sections/FAQ'))
 const FinalCTA = lazy(() => import('./sections/FinalCTA'))
 const Footer = lazy(() => import('./sections/Footer'))
 
@@ -42,26 +35,7 @@ export default function App() {
         <LabShowcase />
       </Suspense>
       <Suspense fallback={<SectionFallback />}>
-        <CampusLife />
-      </Suspense>
-      <Suspense fallback={<SectionFallback />}>
         <Placements />
-      </Suspense>
-      <Suspense fallback={<SectionFallback />}>
-        <Testimonials />
-      </Suspense>
-      <Suspense fallback={<SectionFallback />}>
-        <GlobalEdge />
-      </Suspense>
-      <Suspense fallback={<SectionFallback />}>
-        <Team />
-      </Suspense>
-
-      <Suspense fallback={<SectionFallback />}>
-        <AdmissionProcess />
-      </Suspense>
-      <Suspense fallback={<SectionFallback />}>
-        <FAQ />
       </Suspense>
       <Suspense fallback={<SectionFallback />}>
         <FinalCTA />
