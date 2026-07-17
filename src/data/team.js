@@ -9,7 +9,7 @@ export const team = [
     name: 'Cambridge',
     role: 'Academic Design',
     body: 'Curriculum architecture led by Cambridge-trained researchers.',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/c/c3/University_of_Cambridge_logo.svg'
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/University_of_Cambridge_logo.svg/512px-University_of_Cambridge_logo.svg.png'
   },
   {
     name: 'Microsoft',
@@ -27,6 +27,6 @@ export const team = [
     name: 'Shodh AI',
     role: 'Frontier AI',
     body: 'Live AI research exposure from a national INDIA AI Mission company.',
-    logo: 'https://ui-avatars.com/api/?name=SA&background=0D8ABC&color=fff&size=256'
+    logo: '/Screenshot 2026-07-17 134235.png'
   },
 ]
