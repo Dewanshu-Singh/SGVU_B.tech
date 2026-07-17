@@ -9,7 +9,7 @@ export const team = [
     name: 'Cambridge',
     role: 'Academic Design',
     body: 'Curriculum architecture led by Cambridge-trained researchers.',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/University_of_Cambridge_logo.svg/512px-University_of_Cambridge_logo.svg.png'
+    logo: '/c.png'
   },
   {
     name: 'Microsoft',
